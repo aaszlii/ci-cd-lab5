@@ -20,6 +20,7 @@ def divide(a: int, b: int) -> float:
     """Return the division of a by b."""
     return a / b
 
+
 def to_binary(n):
     """Convert natural number [0–100] to binary string."""
     if not isinstance(n, int) or n < 0 or n > 100:
